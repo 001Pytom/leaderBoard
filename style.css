@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 100%;
+  max-width: 60vw;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+}
+
+header {
+  padding-top: 2rem;
+  font-size: 1.5vw;
+  letter-spacing: 0.1vw;
+}
+
+.input_container {
+  display: flex;
+  gap: 0.5vw;
+}
+
+input,
+button {
+  border: none;
+  padding: 0.5rem;
+  outline: 1px solid #d4a0a0;
+}
+
+.btn {
+  padding: 0.5vw 1.5vw;
+  background-color: #d4a0a0;
+}
+
+input::placeholder {
+  font-size: 1vw;
+}
+
+.leaderboard {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.4rem;
+  text-transform: uppercase;
+}
+.personLB {
+  display: flex;
+  background-color: #d4a0a0;
+  gap: 1vw;
+  align-items: center;
+  padding: 0.5rem 2rem 0.5rem 1rem;
+}
+
+.personal_details,
+.countyr,
+.fxn,
+.score {
+  flex: 0.3;
+}
+
+.fxn {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.delete,
+.increase,
+.decrease {
+  height: 50px;
+  width: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
